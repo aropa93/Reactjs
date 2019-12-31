@@ -52,7 +52,6 @@ class App extends React.Component {
       txtDecription:Decription
     })
   }
-
   componentDidMount(){
     console.log("Component DidMount")
     setTimeout(()=>{
@@ -69,10 +68,7 @@ class App extends React.Component {
         })
     }
     return true
-
-  
-}
-  
+}  
   render() {
     return (
       <div id="main">
